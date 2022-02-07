@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T12:54:32.219Z" agent="5.0 (Macintosh)" etag="4AZDh65IGryhS_EZ5wNq" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T13:04:36.478Z" agent="5.0 (Macintosh)" etag="LdCjHuVn34wiiAngVWMU" version="16.5.3" type="github">
   <diagram id="-5HM5EegVUKk-gag7wd8" name="Page-1">
     <mxGraphModel dx="3609" dy="2674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -270,6 +270,12 @@
         </mxCell>
         <mxCell id="e54BE-5O06g-NBE3f2j7-90" value="&lt;div&gt;DATA_MART&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1416.25" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e54BE-5O06g-NBE3f2j7-91" value="&lt;div align=&quot;left&quot;&gt;Im Data_Mart werden die aktuellen (T-3 Jahre) Daten aufbewahrt und &lt;/div&gt;sind so bequem zugreifbar.&lt;br&gt;&lt;br&gt;Data Analysts benötigen aber oft mehr Daten (somit Zugriff auf DATA_STORE) &amp;gt; dieser zukünftig in &quot;günstigeren&quot;, einfach zugreifbaren DATA_LAKE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="970" width="680" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e54BE-5O06g-NBE3f2j7-92" value="&lt;div align=&quot;left&quot;&gt;Warum Synapse &quot;Data Factory&quot; und nicht Data Factory?&lt;br&gt;- Synapsecodebase wird wohl schneller weiterentwickelt (Vermutung)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Data Factory kann in Zukunft ETL ablösen , Synapse bietet in der selben Umgebung auch Notebooks an. So kann man auch ETL Prozesse via Notebook gestalten (Steigerung der Einfachheit)&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="180" y="980" width="680" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
